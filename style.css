@@ -1,0 +1,135 @@
+/* CSS Selectors & Properties */
+/* 
+
+          CSS Selectors (used to target elements)
+
+
+body_Targets the entire visible page conten
+
+h2_Targets all <h2> heading elements.
+
+button_Targets all <button> elements.
+
+input_Targets all <input> elements.
+
+.form-section_Targets any element with class form-section
+
+.dark-bg_	Targets any element with class dark-bg.
+   
+
+            CSS Properties (used to style elements)
+
+
+font-family_	Sets the font type used for the text
+
+padding_Adds space inside the element's border (around content).
+
+margin_Adds space outside the element (between elements).
+
+transition_Smoothly animates changes in CSS properties over time.
+
+background-color_Sets the background color of an element.
+
+color_Sets the text color.
+
+border_Defines the thickness, style, and color of an element’s border.
+
+border-radius_Rounds the corners of an element.
+
+cursor_Sets the mouse cursor appearance (e.g., pointer on hover).
+
+width_Sets the horizontal width of an element.
+
+font-size_Sets the size of the text. 
+ */
+ 
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  h2 {
+    margin-top: 40px;
+  }
+  
+  button {
+    background-color: #db4dc5;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+  }
+  
+  input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .form-section {
+    margin-top: 30px;
+  }
+  
+  .dark-bg {
+    background-color: #333;
+    color: white;
+  }
+  label{
+    color:rgb(176, 157, 157);
+    font-size: large;
+    font-weight: bold;
+  }
+
+  /* input:-webkit-autofill {
+    background-color: white !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+   */
+
+   #errorsDisplay {
+    display: none;
+    background-color: #1d4c1b;
+    border: 1px solid #ff4d4d;
+    padding: 10px;
+    margin-top: 15px;
+    color: #c9c917;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #resultDisplay {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color:gold;
+  }
+  
+  
+  #resultDisplay h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color:aqua;
+  
+  }
+  
+  #errorsDisplay p,
+  #resultDisplay p {
+    width: 290px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color:gold ;
+  }
+  
+  
